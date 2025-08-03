@@ -17,6 +17,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.thewatermod.init.TheWaterModModTabs;
 import net.mcreator.thewatermod.init.TheWaterModModItems;
 
 import java.util.function.Supplier;
@@ -40,6 +41,8 @@ public class TheWaterModMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		TheWaterModModItems.REGISTRY.register(bus);
+
+		TheWaterModModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
