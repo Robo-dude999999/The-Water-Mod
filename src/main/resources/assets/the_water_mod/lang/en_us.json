@@ -1,0 +1,9 @@
+{
+  "death.attack.thirst": "%1$s died of thirst",
+  "gamerule.useWaterBar": "Use water bar",
+  "gamerule.showWaterDebug": "Show Water Debug",
+  "gamerule.useWaterBar.description": "Turns on and off the water bar.",
+  "death.attack.thirst.item": "%1$s was killed by %2$s using %3$s",
+  "death.attack.thirst.player": "%1$s died whilst trying to escape %2$s",
+  "gamerule.showWaterDebug.description": "Turns on water debug text."
+}

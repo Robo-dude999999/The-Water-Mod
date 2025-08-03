@@ -1,0 +1,116 @@
+{
+  "_fv": 66,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGH",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "fullbottle.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Fullwater"
+          },
+          "anchorPoint": "CENTER",
+          "x": 308,
+          "y": 221
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bottle2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Water2"
+          },
+          "anchorPoint": "CENTER",
+          "x": 308,
+          "y": 221
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bottle3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Water3"
+          },
+          "anchorPoint": "CENTER",
+          "x": 308,
+          "y": 221
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bottle4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Water4"
+          },
+          "anchorPoint": "CENTER",
+          "x": 308,
+          "y": 221
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bottle5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Water5"
+          },
+          "anchorPoint": "CENTER",
+          "x": 308,
+          "y": 221
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bottleempty.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "WaterEmpty"
+          },
+          "anchorPoint": "CENTER",
+          "x": 308,
+          "y": 221
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_debug",
+          "text": {
+            "fixedValue": "",
+            "name": "Debug"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER",
+          "x": 334,
+          "y": 224
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "WaterBarDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 2,
+      "oy": 44,
+      "snapOnGrid": false
+    }
+  }
+}
