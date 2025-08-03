@@ -1,7 +1,10 @@
 {
   "death.attack.thirst": "%1$s died of thirst",
+  "item.the_water_mod.dirty_water_bottle": "Purified Water Bottle",
   "gamerule.useWaterBar": "Use water bar",
+  "item.the_water_mod.acceptable_water_bottle": "Purified Water Bottle",
   "gamerule.showWaterDebug": "Show Water Debug",
+  "item.the_water_mod.purified_water_bottle": "Purified Water Bottle",
   "gamerule.useWaterBar.description": "Turns on and off the water bar.",
   "death.attack.thirst.item": "%1$s was killed by %2$s using %3$s",
   "death.attack.thirst.player": "%1$s died whilst trying to escape %2$s",

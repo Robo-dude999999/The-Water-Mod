@@ -184,6 +184,18 @@
             "type": "entity"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -238,6 +250,99 @@
           }
         ]
       }
+    },
+    {
+      "name": "PurifiedWaterBottle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purified_water_bottle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thewatermod/item/PurifiedWaterBottleItem.java",
+          "src/main/resources/assets/the_water_mod/models/item/purified_water_bottle.json"
+        ]
+      }
+    },
+    {
+      "name": "AcceptableWaterBottle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acceptable_water_bottle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thewatermod/item/AcceptableWaterBottleItem.java",
+          "src/main/resources/assets/the_water_mod/models/item/acceptable_water_bottle.json"
+        ]
+      }
+    },
+    {
+      "name": "DirtyWaterBottle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_water_bottle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thewatermod/item/DirtyWaterBottleItem.java",
+          "src/main/resources/assets/the_water_mod/models/item/dirty_water_bottle.json"
+        ]
+      }
+    },
+    {
+      "name": "DirtyWaterBottlePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_water_bottle_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thewatermod/procedures/DirtyWaterBottlePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AcceptableWaterBottlePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acceptable_water_bottle_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thewatermod/procedures/AcceptableWaterBottlePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PurifiedWaterBottlePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purified_water_bottle_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thewatermod/procedures/PurifiedWaterBottlePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -254,8 +359,11 @@
   "language_map": {
     "en_us": {
       "death.attack.thirst": "%1$s died of thirst",
+      "item.the_water_mod.dirty_water_bottle": "Purified Water Bottle",
       "gamerule.useWaterBar": "Use water bar",
+      "item.the_water_mod.acceptable_water_bottle": "Purified Water Bottle",
       "gamerule.showWaterDebug": "Show Water Debug",
+      "item.the_water_mod.purified_water_bottle": "Purified Water Bottle",
       "gamerule.useWaterBar.description": "Turns on and off the water bar.",
       "death.attack.thirst.item": "%1$s was killed by %2$s using %3$s",
       "death.attack.thirst.player": "%1$s died whilst trying to escape %2$s",
