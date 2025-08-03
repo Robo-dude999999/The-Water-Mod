@@ -219,6 +219,25 @@
         "files": [],
         "type": "logic"
       }
+    },
+    {
+      "name": "ShowWaterDebugProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "show_water_debug_procedure",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/thewatermod/procedures/ShowWaterDebugProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [

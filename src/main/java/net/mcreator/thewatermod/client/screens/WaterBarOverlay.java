@@ -21,6 +21,7 @@ import net.mcreator.thewatermod.procedures.Water5Procedure;
 import net.mcreator.thewatermod.procedures.Water4Procedure;
 import net.mcreator.thewatermod.procedures.Water3Procedure;
 import net.mcreator.thewatermod.procedures.Water2Procedure;
+import net.mcreator.thewatermod.procedures.ShowWaterDebugProcedureProcedure;
 import net.mcreator.thewatermod.procedures.FullwaterProcedure;
 import net.mcreator.thewatermod.procedures.DebugProcedure;
 
@@ -69,9 +70,10 @@ public class WaterBarOverlay {
 			if (WaterEmptyProcedure.execute(entity)) {
 				event.getGuiGraphics().blit(new ResourceLocation("the_water_mod:textures/screens/bottleempty.png"), w / 2 + 95, h / 2 + 101, 0, 0, 16, 16, 16, 16);
 			}
-			event.getGuiGraphics().drawString(Minecraft.getInstance().font,
+			if (ShowWaterDebugProcedureProcedure.execute(world))
+				event.getGuiGraphics().drawString(Minecraft.getInstance().font,
 
-					DebugProcedure.execute(entity), w / 2 + 121, h / 2 + 104, -1, false);
+						DebugProcedure.execute(entity), w / 2 + 121, h / 2 + 104, -1, false);
 		}
 		RenderSystem.depthMask(true);
 		RenderSystem.defaultBlendFunc();

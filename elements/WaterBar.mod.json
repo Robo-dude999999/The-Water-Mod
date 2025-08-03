@@ -94,6 +94,9 @@
             "value": -1,
             "falpha": 0.0
           },
+          "displayCondition": {
+            "name": "ShowWaterDebugProcedure"
+          },
           "anchorPoint": "CENTER",
           "x": 334,
           "y": 224
